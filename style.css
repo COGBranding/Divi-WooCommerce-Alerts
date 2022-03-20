@@ -1,0 +1,26 @@
+/* Error Styling (Red) */
+body.woocommerce-cart ul.woocommerce-error{
+    font-size: 16px !important;
+    font-weight: 500;
+    background-color: #FEEFEF !important;
+    border: 2px solid #F48989 !important;
+    color: #DA1414 !important;
+}
+
+/* Alert Styling (Orange) */
+body.woocommerce-checkout .woocommerce-info,
+body.woocommerce-account .woocommerce-message,
+body.woocommerce-account .woocommerce-info{
+    font-size: 16px !important;
+    font-weight: 500;
+    background-color: #FFF4EC !important;
+    border: 2px solid #FF8F39 !important;
+    color: #B95000 !important;
+}
+body.woocommerce-checkout .woocommerce-info a{
+    color: #B95000 !important;
+    text-decoration: underline;
+}
+body.woocommerce-checkout .woocommerce-info a:hover{
+    text-decoration: none;
+}
