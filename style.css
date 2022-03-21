@@ -24,3 +24,25 @@ body.woocommerce-checkout .woocommerce-info a{
 body.woocommerce-checkout .woocommerce-info a:hover{
     text-decoration: none;
 }
+
+/* Success Styling (Green) */
+.woocommerce-notices-wrapper{
+    border: 2px solid #5aca75 !important;
+    height: 74px;
+}
+body.single-product .woocommerce .woocommerce-message,
+body.woocommerce-cart .woocommerce .woocommerce-message{
+    font-size: 16px !important;
+    font-weight: 500;
+    background-color: #EDF9F0;
+    color: #287D3C !important;
+}
+body.single-product .woocommerce .woocommerce-message a,
+body.woocommerce-cart .woocommerce .woocommerce-message a{
+    color: #287D3C !important;
+    text-decoration: underline;
+}
+body.single-product .woocommerce .woocommerce-message a:hover,
+body.woocommerce-cart .woocommerce .woocommerce-message a:hover{
+    text-decoration: none;
+}
