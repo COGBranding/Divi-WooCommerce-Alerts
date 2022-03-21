@@ -28,7 +28,6 @@ body.woocommerce-checkout .woocommerce-info a:hover{
 /* Success Styling (Green) */
 body.woocommerce-cart .woocommerce-notices-wrapper{
     border: 2px solid #5aca75 !important;
-    height: 74px;
 }
 body.single-product .woocommerce .woocommerce-message,
 body.woocommerce-cart .woocommerce .woocommerce-message{
