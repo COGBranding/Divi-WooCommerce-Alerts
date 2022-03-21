@@ -34,7 +34,7 @@ body.single-product .woocommerce .woocommerce-message,
 body.woocommerce-cart .woocommerce .woocommerce-message{
     font-size: 16px !important;
     font-weight: 500;
-    background-color: #EDF9F0;
+    background-color: #EDF9F0 !important;
     color: #287D3C !important;
 }
 body.single-product .woocommerce .woocommerce-message a,
